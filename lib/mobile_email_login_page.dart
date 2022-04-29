@@ -158,8 +158,9 @@ class _MobileEmailLoginPageState extends State<MobileEmailLoginPage>
                       child: MaterialButton(
                         onPressed: () {},
                         color: Color(0xffff6c08),
-                        //color: Color.fromARGB(255, 255, 108, 8),
-                        textColor: Color.fromARGB(255, 255, 255, 255),
+                        textColor: Colors.white,
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(10)),
                         child: Text('로그인'),
                       ),
                     ),
@@ -173,7 +174,9 @@ class _MobileEmailLoginPageState extends State<MobileEmailLoginPage>
                         child: MaterialButton(
                             onPressed: () {},
                             color: Color.fromARGB(255, 36, 36, 36),
-                            textColor: Color.fromARGB(255, 255, 255, 255),
+                            textColor: Colors.white,
+                            shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(10)),
                             child: Text('회원가입'))),
                     SizedBox(
                       height: 20.h,
@@ -184,7 +187,9 @@ class _MobileEmailLoginPageState extends State<MobileEmailLoginPage>
                         child: MaterialButton(
                             onPressed: () {},
                             color: Color.fromARGB(255, 36, 36, 36),
-                            textColor: Color.fromARGB(255, 255, 255, 255),
+                            textColor: Colors.white,
+                            shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(10)),
                             child: Text('비밀번호 찾기'))),
                     Padding(
                       padding: const EdgeInsets.only(top: 20.0),

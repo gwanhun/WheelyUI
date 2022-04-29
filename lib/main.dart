@@ -29,7 +29,11 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const MobileTermsAndConditionpage(),
+      home: const MobileSignupPage(),
     );
   }
 }
+//MobileSerialKeyPage
+//MobileSignupPage
+//MobileEmailLoginPage
+//MobileTermsAndConditionpage
