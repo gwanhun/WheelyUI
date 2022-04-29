@@ -1,0 +1,11 @@
+<svg id="disconnected" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="그룹_4626" data-name="그룹 4626" transform="translate(6094 19157)">
+    <g id="그룹_4230" data-name="그룹 4230" transform="translate(3295 -24585)">
+      <rect id="사각형_3687" data-name="사각형 3687" width="24" height="24" transform="translate(-9389 5428)" fill="none"/>
+    </g>
+  </g>
+  <g id="disconnect-solid" transform="translate(0 3)">
+    <path id="패스_7040" data-name="패스 7040" d="M9.5,6A4.658,4.658,0,0,0,4.843,9.75H2v1.5H4.873A4.673,4.673,0,0,0,9.5,15h3.75V6Z" transform="translate(-2 -5.999)" fill="#fff"/>
+    <path id="패스_7041" data-name="패스 7041" d="M28.593,21.75H25.855A4.688,4.688,0,0,0,21.2,18H17.5v1.5H13.75a.75.75,0,0,0,0,1.5H17.5v3H13.75a.75.75,0,0,0,0,1.5H17.5V27h3.705a4.673,4.673,0,0,0,4.665-3.75H28.6Z" transform="translate(-4.75 -8.999)" fill="#fff"/>
+  </g>
+</svg>
