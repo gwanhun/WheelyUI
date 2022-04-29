@@ -141,7 +141,19 @@ class _MobileSerialKeyPageState extends State<MobileSerialKeyPage>
                             children: [
                               TextFormField(
                                 textInputAction: TextInputAction.done,
-                                decoration: textInputDecor(''),
+                                decoration: InputDecoration(
+                                    hintStyle: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 20,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                    hintText: 'xxx-xxx',
+                                    enabledBorder: OutlineInputBorder(
+                                        borderSide: BorderSide(
+                                            color: Colors.white, width: 1.0)),
+                                    border: OutlineInputBorder(
+                                        borderSide: BorderSide(
+                                            color: Colors.white, width: 1.0))),
                                 style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 14,
@@ -150,6 +162,7 @@ class _MobileSerialKeyPageState extends State<MobileSerialKeyPage>
                                 validator: (text) {
                                   if (text == null) {}
                                 },
+                                textAlign: TextAlign.center,
                               ),
                               SizedBox(
                                 height: 75.h,
