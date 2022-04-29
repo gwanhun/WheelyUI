@@ -389,7 +389,7 @@ class _MobileTermsAndConditionpageState
                     Text('(선택)',
                         style: TextStyle(
                           fontSize: 14,
-                          color: Color(0xffff6c08),
+                          color: Colors.white,
                           fontWeight: FontWeight.bold,
                         )),
                   ],
