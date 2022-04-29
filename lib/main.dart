@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:wheelyx_mobile/mobile_email_login_page.dart';
 import 'package:wheelyx_mobile/mobile_password_reset_page.dart';
+import 'package:wheelyx_mobile/mobile_serila_key_page.dart';
 import 'package:wheelyx_mobile/mobile_signup_page.dart';
 
 void main() {
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const MobileSignupPage(),
+      home: const MobileSerialKeyPage(),
     );
   }
 }
